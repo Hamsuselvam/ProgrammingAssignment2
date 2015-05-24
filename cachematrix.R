@@ -25,7 +25,7 @@ cacheSolve <- function(x, ...) {
   if(!is.null(inverse_x)) {
     message("Obtaining cached inverse of matrix")
     return inverse_x
-  }
+  } 
   ## Otherwise it computes the inverse of the matrix
   else {
     ## Solve function computes the inverse of the matrix        
